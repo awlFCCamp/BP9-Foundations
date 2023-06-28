@@ -29,6 +29,7 @@
 const hasUniqueChars = (str) => {
   return str.length === new Set(str).size;
 };
+
 console.log(hasUniqueChars("Monday"));
 console.log(hasUniqueChars("Moonday"));
 console.log(hasUniqueChars("Boob"));
