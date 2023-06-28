@@ -13,7 +13,7 @@
 };*/
 
 //approach 2
-const hasUniqueChars = (str) => {
+/*const hasUniqueChars = (str) => {
   let obj = {};
   for (char of str) {
     if (obj[char]) {
@@ -23,6 +23,11 @@ const hasUniqueChars = (str) => {
     }
   }
   return true;
+};*/
+
+//approach 3
+const hasUniqueChars = (str) => {
+  return str.length === new Set(str).size;
 };
 console.log(hasUniqueChars("Monday"));
 console.log(hasUniqueChars("Moonday"));
