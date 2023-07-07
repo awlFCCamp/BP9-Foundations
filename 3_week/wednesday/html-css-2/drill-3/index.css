@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  max-width: 100vw;
+  min-height: 100vh;
+}
+header {
+  height: 15vh;
+  background: lightgrey;
+}
+
+.blue-square {
+  width: 50px;
+  height: 50px;
+  background: lightblue;
+  position: absolute;
+  top: 35px;
+  left: 25px;
+}
