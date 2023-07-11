@@ -36,7 +36,7 @@ sayHelloButton.addEventListener("mouseover", changeStyle);
 */
 
 // CODE HERE
-sayHelloButton.addEventListener("mouseleave", () => {
+sayHelloButton.addEventListener("mouseout", () => {
   sayHelloButton.style.backgroundColor = "#FFF";
   sayHelloButton.style.color = "black";
 });
