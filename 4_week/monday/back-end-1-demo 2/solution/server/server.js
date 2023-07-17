@@ -19,7 +19,7 @@ app.get('/api/inventory', (req, res) => {
 
 app.get('/api/inventory/:index', (req, res) => {
     res.status(200).send(inventory[+req.params.index])
-);
+});
 
 
 const SERVER_PORT = 5050;
